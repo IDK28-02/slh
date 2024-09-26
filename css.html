@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        height: 100%;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+    table
+    {
+        color: white;
+        box-shadow: 10px 10px 10px gray;
+        margin-left: 95px;
+    }
+    table, td
+    {
+        border: 2px solid blue;
+        border-collapse: collapse;
+    }
+    ul li
+    {
+        list-style-image: url(css_powt/minikwiat.png);
+        margin-left: 30px;
+    }
+    header h1
+    {
+        padding: 65px;
+    }
+    header
+    {
+        height: 120px;
+        background-color: crimson;
+        color: white;
+        text-align: center;
+    }
+    #lewy
+    {
+        width: 40%;
+        height: 500px;
+        background-color: darksalmon;
+        float: left;
+        color: white;
+        text-align: center;
+
+    }
+    #srodkowy
+    {
+        width: 30%;
+        height: 500px;
+        overflow: hidden;
+        float: left;
+    }
+    #prawy
+    {
+        width: 30%;
+        height: 500px;
+        background-color: lightcoral;
+        color: white;
+        float: left;
+    }
+    footer
+    {
+        height: 90px;
+        background-color: bisque;
+        clear: both;
+        text-align: center;
+        padding: 20px;
+    }
+    #srodkowy img
+    {
+        width: 100%;
+    }
+    input[type=submit]
+    {
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        border: 1px solid blue;
+        font-size: 20px;
+        width: 200px;
+        padding: 5px;
+        margin-left: 90px;
+        margin-top: 25px;
+    }
+    input[type=submit]:hover
+    {
+        background-color: red;
+    }
+    #prawy h2
+    {
+        margin-left: 10px;
+    }
+</style>
+<body>
+    <header><h1><img src="css_powt/minikwiat.png">Poczta Kwiatowa<img src="css_powt/minikwiat.png"></h1></header>
+    <main>
+        <section id="lewy">
+            <h1>Cennik</h1>
+            <table border="1">
+                <tr>
+                    <td>Rodzaj</td>
+                    <td>Cena wraz z dostawą</td>
+                </tr>
+                <tr>
+                    <td>nigga - black</td>
+                    <td>free</td>
+                </tr>
+                <tr>
+                    <td>nigga - late</td>
+                    <td>free</td>
+                </tr>
+                <tr>
+                    <td>nigga - white</td>
+                    <td>niedostępne</td>
+                </tr>
+
+            </table>
+        </section>
+        <section id="srodkowy">
+            <img src="css_powt/kwiaty.jpg">
+        </section>
+        <section id="prawy">
+            <h2>Obsługujemy uroczystośći:</h2><br>
+            <ul>
+                <li>Śluby</li>
+                <li>Pogrzeby</li>
+                <li>Inne</li>
+            </ul>
+            <input type="submit" value="Złóż zamówienie">
+        </section>
+    </main>
+    <footer><a href="mailto:kwiaty@wp.pl">Napisz do autora strony</a></footer>
+</body>
+</html>
